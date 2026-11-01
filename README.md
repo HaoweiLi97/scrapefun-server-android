@@ -14,6 +14,6 @@ Google Play 分发版使用 Google Play 应用内更新，不从 GitHub 下载�
 
 每个 GitHub release 包含 `scrapefun-server-android-manifest.json`、对应架构的签名 APK、APK 的 `.sha256` 和 `SHA256SUMS`。没有经过发布签名校验的开发 APK 不进入正式更新源。
 
-当前稳定版为 [0.4.3](https://github.com/HaoweiLi97/scrapefun-server-android/releases/tag/v0.4.3)（versionCode 4003），支持 Android 9 或更新版本、`arm64-v8a` 设备，使用与上一版一致的发布证书。更新前请停止服务器并保留完整备份，再覆盖安装新版 APK；安装和首次准备需预留足够空间。
+当前稳定版为 [0.5.0](https://github.com/HaoweiLi97/scrapefun-server-android/releases/tag/v0.5.0)（versionCode 4004），支持 Android 9 或更新版本、`arm64-v8a` 设备，使用与上一版一致的发布证书。更新前请停止服务器并保留完整备份，再覆盖安装新版 APK；安装和首次准备需预留足够空间。
 
-[本版更新说明](https://github.com/HaoweiLi97/scrapefun-server-android/releases/tag/v0.4.3) · [最新签名 APK](https://github.com/HaoweiLi97/scrapefun-server-android/releases/latest/download/scrapefun-server-android-0.4.3-arm64-v8a.apk)
+[本版更新说明](https://github.com/HaoweiLi97/scrapefun-server-android/releases/tag/v0.5.0) · [最新签名 APK](https://github.com/HaoweiLi97/scrapefun-server-android/releases/latest/download/scrapefun-server-android-0.5.0-arm64-v8a.apk)
