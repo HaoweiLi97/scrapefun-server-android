@@ -9,12 +9,12 @@ Run ScrapeFun Server on an Android phone or tablet to manage movies, comics and 
 
 ## Downloads and device requirements
 
-| Item | Stable 0.5.0 |
+| Item | Stable 0.5.2 |
 | --- | --- |
-| Download | [Release page](https://github.com/HaoweiLi97/scrapefun-server-android/releases/tag/v0.5.0) |
+| Download | [Release page](https://github.com/HaoweiLi97/scrapefun-server-android/releases/tag/v0.5.2) |
 | System | Android 9 or later |
 | Architecture | arm64-v8a (64-bit ARM) |
-| Installer | `scrapefun-server-android-0.5.0-arm64-v8a.apk` |
+| Installer | `scrapefun-server-android-0.5.2-arm64-v8a.apk` |
 | Verification | APK `.sha256` and `SHA256SUMS` |
 
 The APK is available through GitHub. The app is not yet available on Google Play; download from this repository's release page.
@@ -28,7 +28,7 @@ The APK is available through GitHub. The app is not yet available on Google Play
 
 ## Updates and backups
 
-Open Application Updates in the app's runtime settings to check automatically, check manually or skip a version. Android confirms installation after the download. Version 0.5.0 retains the previous release's signing identity; stop the server and back up its data before updating in place.
+Open Application Updates in the app's runtime settings to check automatically, check manually or skip a version. When downloading or installing an update, the app automatically stops the server and waits for it to exit before continuing. Android confirms installation. Version 0.5.2 retains the previous release's signing identity; back up your data before updating in place.
 
 Stable and beta updates use separate channels. Keep the same app and signing identity. If Android reports a signing mismatch, verify the source before taking action; do not uninstall the existing app to bypass the warning. Uninstalling can erase local Server data.
 

@@ -9,12 +9,12 @@ Android 服务端，在手机或平板上运行 ScrapeFun，管理影视、漫�
 
 ## 下载与设备要求
 
-| 项目 | 0.5.0 正式版 |
+| 项目 | 0.5.2 正式版 |
 | --- | --- |
-| 下载 | [发行页](https://github.com/HaoweiLi97/scrapefun-server-android/releases/tag/v0.5.0) |
+| 下载 | [发行页](https://github.com/HaoweiLi97/scrapefun-server-android/releases/tag/v0.5.2) |
 | 系统 | Android 9 或更新版本 |
 | 架构 | arm64-v8a（64 位 ARM） |
-| 安装包 | `scrapefun-server-android-0.5.0-arm64-v8a.apk` |
+| 安装包 | `scrapefun-server-android-0.5.2-arm64-v8a.apk` |
 | 校验 | APK 的 `.sha256`、`SHA256SUMS` |
 
 当前通过 GitHub 提供 APK。Google Play 尚未上架；请从本仓库的发行页下载。
@@ -28,7 +28,7 @@ Android 服务端，在手机或平板上运行 ScrapeFun，管理影视、漫�
 
 ## 更新与备份
 
-在应用运行设置中打开“应用更新”，可自动检查、手动检查或跳过版本。下载后由 Android 系统确认安装。0.5.0 沿用上一版的发布证书，可在停止服务器并备份数据后覆盖安装。
+在应用运行设置中打开“应用更新”，可自动检查、手动检查或跳过版本。下载或安装更新时，应用会自动停止服务器并等待退出，再继续更新。Android 系统会确认安装。0.5.2 沿用上一版的发布证书；覆盖升级前请备份数据。
 
 稳定版和测试版使用独立更新频道。请沿用原应用与签名；系统提示签名不一致时，先检查来源，不要直接卸载原应用绕过提示。卸载可能清除本机 Server 数据。
 
